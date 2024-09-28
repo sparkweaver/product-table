@@ -1,6 +1,6 @@
 import { PRODUCTS } from "./data/products";
 import { FilterableProductTable } from "./components/FilterableProductTable";
 
-export function App() {
+export default function App() {
   return <FilterableProductTable products={PRODUCTS} />;
 }
